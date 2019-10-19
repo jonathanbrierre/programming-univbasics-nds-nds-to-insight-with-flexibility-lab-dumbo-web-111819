@@ -98,6 +98,7 @@ def gross_per_studio(collection)
         a_collection[collection[i][:studio]] += 
         total_gross 
         i += 1
+    end
   end
   a_collection
   
