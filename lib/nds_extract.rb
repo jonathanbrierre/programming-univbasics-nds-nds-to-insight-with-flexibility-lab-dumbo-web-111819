@@ -86,11 +86,15 @@ def gross_per_studio(collection)
   
   i = 0 
   while i < collection.count do 
+    a_collection = {}
     total_gross = 0
     total_gross += collection[i][:worldwide_gross]
-    final_collection[collection[i][:studio]] = 
+    a_collection[collection[i][:studio]] = 
     total_gross 
-    
+    i += 1
+  end
+  a_collection
+  binding.pry
     #final_collection example: {
     #   :studio => total_gross
     #   :studio => total_gross
