@@ -58,18 +58,14 @@ def movies_with_director_key(name, movies_collection)
   
     movie_index = 0 
     while movie_index < movies_collection.count do 
-     movie_data = movies_collection[movie_index]
-     director_name = name
-        final_collection << movie_with_director_name(director_name, movie_data)
-        movie_index+=1
-      
-    
-    
-    
-  end 
+      movie_data = movies_collection[movie_index]
+      director_name = name
+      final_collection << movie_with_director_name(director_name, movie_data)
+      movie_index+=1
+     end 
   
   final_collection
-   binding.pry
+   
 end
 
 
