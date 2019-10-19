@@ -89,10 +89,11 @@ def gross_per_studio(collection)
     a_collection = {}
     total_gross = 0
     if collection[i][:studio] !== a_collection
-    total_gross += collection[i][:worldwide_gross]
-    a_collection[collection[i][:studio]] = 
+      total_gross += collection[i][:worldwide_gross]
+      a_collection[collection[i][:studio]] = 
     total_gross 
     i += 1
+    else 
   end
   a_collection
   binding.pry
