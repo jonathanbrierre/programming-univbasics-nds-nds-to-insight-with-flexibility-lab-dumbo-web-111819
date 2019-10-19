@@ -91,10 +91,10 @@ def gross_per_studio(collection)
     collection[:studio] 
     
     final_collection example: {
-      :studio => total_gross
-      :studio => total_gross
-      etc..
-    }
+    #   :studio => total_gross
+    #   :studio => total_gross
+    #   etc..
+    # }
 end
 
 def movies_with_directors_set(source)
