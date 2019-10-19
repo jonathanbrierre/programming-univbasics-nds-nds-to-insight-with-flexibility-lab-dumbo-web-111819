@@ -54,8 +54,6 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
   
   movies_collection = []
- 
-      
   director_index = 0 
   while director_index < directors_database.count do 
     movie_index = 0 
