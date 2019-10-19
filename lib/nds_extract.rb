@@ -38,7 +38,7 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
-  binding.pry
+ 
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
   # and accumulate the returned Array of movies into a new Array that's
@@ -54,20 +54,17 @@ def movies_with_director_key(name, movies_collection)
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
   
-  movies_collection = []
-  director_index = 0 
-  while director_index < directors_database.count do 
+  final_collection = []
+  
     movie_index = 0 
-    while movie_index < directors_database[director_index][:movies].count do 
-      if name == directors_database[director_index][:name]
-        director_name = name
-        movie_data = directors_database[director_index][:movies][movie_index]
-        movies_collection << movie_with_director_name(director_name, movie_data)
+    while movie_index < movies_collection.count do 
+     movie_data = movies_collection[movie_index]
+     director_name = name
+        final_collection << movie_with_director_name(director_name, movie_data)
         movie_index+=1
-      else 
-        director_index += 1
+      
       end   
-    end 
+    
     
   end 
   
