@@ -116,6 +116,11 @@ def movies_with_directors_set(source)
   i = 0 
   while i < source.count do 
     new_array << source[i][:movies]
+    z = 0 
+    while z < new_array.count do
+      new_array[z][:director_name] = source[i][:name]
+      z +=1
+    end
     i += 1 
   end
   new_array
