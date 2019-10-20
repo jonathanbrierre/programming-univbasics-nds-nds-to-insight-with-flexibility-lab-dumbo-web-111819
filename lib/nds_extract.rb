@@ -97,6 +97,7 @@ def gross_per_studio(collection)
   while sub_array_index < collection.count do
     total_gross = 0 
     
+    
   
     # if collection[i][:studio] ==   a_collection[collection[i][:studio]]
       
