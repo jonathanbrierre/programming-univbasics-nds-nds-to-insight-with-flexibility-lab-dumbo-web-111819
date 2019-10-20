@@ -97,7 +97,7 @@ def gross_per_studio(collection)
     #     total_gross 
     #     i += 1
     #   end
-    #   binding.pry
+      binding.pry
     # end
   #   else 
   #       total_gross += collection[i][:worldwide_gross]
