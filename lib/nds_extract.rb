@@ -86,15 +86,11 @@ def gross_per_studio(collection)
   final_hash = {}
   i = 0 
   
-  while sub_array_index < sub_array.count do
-    total_gross = 0 
-    collection_index = 0 
-    while collection_index < colelction.count do 
-      total_gross += collection{collection_index][:worldwide_gross] 
-    
-    total_gross += collection[sub_array_index][:worldwide_gross] 
-    
-    if collection
+ while i < collection[i].count do
+   if final_hash[collection[i][:studio]]
+     final_hash[collection[i][:studio]] += collection[i][:worldwide_gross]
+    elsif !()
+   
     
   
     # if collection[i][:studio] ==   a_collection[collection[i][:studio]]
