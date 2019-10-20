@@ -89,16 +89,16 @@ def gross_per_studio(collection)
     sub_array = []
     sub_array << collection[i][:studio] if sub_array.include?(collection[i][:studio]) => false
     
-    if collection[i][:studio] ==   a_collection[collection[i][:studio]]
+    # if collection[i][:studio] ==   a_collection[collection[i][:studio]]
       
       
-        total_gross += collection[i][:worldwide_gross]
-        a_collection[collection[i][:studio]] += 
-        total_gross 
-        i += 1
-      end
-      binding.pry
-    end
+    #     total_gross += collection[i][:worldwide_gross]
+    #     a_collection[collection[i][:studio]] += 
+    #     total_gross 
+    #     i += 1
+    #   end
+    #   binding.pry
+    # end
   #   else 
   #       total_gross += collection[i][:worldwide_gross]
   #       a_collection[collection[i][:studio]] = 
