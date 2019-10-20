@@ -119,7 +119,7 @@ def movies_with_directors_set(source)
     i += 1 
   end
   new_array
-  binding.pry
+  flatten_a_o_a(new_array)
 end
 
 # ----------------    End of Your Code Region --------------------
