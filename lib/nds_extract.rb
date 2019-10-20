@@ -98,33 +98,10 @@ def gross_per_studio(collection)
    
     
   
-    # if collection[i][:studio] ==   a_collection[collection[i][:studio]]
-      
-      
-    #     total_gross += collection[i][:worldwide_gross]
-    #     a_collection[collection[i][:studio]] += 
-    #     total_gross 
-    #     i += 1
-    #   end
-    # end
-  #   else 
-  #       total_gross += collection[i][:worldwide_gross]
-  #       a_collection[collection[i][:studio]] = 
-  #       total_gross 
-  #       i += 1
-  #   end
-    
-  # end
-  #a_collection
-  
-    #final_collection example: {
-    #   :studio => total_gross
-    #   :studio => total_gross
-    #   etc..
-    # }
 end
 
 def movies_with_directors_set(source)
+  binding.pry
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
   # INPUT:
