@@ -94,8 +94,12 @@ def gross_per_studio(collection)
   sub_array
   
   sub_array_index = 0 
-  while sub_array_index < collection.count do
+  while sub_array_index < sub_array.count do
     total_gross = 0 
+    collection_index = 0 
+    while collection_index < colelction.count do 
+      total_gross += collection{collection_index][:worldwide_gross] 
+    
     total_gross += collection[sub_array_index][:worldwide_gross] 
     
     
