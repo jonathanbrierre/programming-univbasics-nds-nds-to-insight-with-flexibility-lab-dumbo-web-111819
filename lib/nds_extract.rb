@@ -92,6 +92,8 @@ def gross_per_studio(collection)
     i +=1
   end
   sub_array
+  
+  
     # if collection[i][:studio] ==   a_collection[collection[i][:studio]]
       
       
