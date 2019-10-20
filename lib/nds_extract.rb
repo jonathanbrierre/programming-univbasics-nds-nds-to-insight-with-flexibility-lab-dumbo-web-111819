@@ -95,7 +95,7 @@ def gross_per_studio(collection)
     i+=1 
   end 
   final_hash
-   
+   binding.pry
     
   
     # if collection[i][:studio] ==   a_collection[collection[i][:studio]]
