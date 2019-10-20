@@ -99,8 +99,8 @@ def gross_per_studio(collection)
         total_gross 
         i += 1
     end
-    binding.pry
-  end
+    bindin
+  endg.pry
   a_collection
   
     #final_collection example: {
