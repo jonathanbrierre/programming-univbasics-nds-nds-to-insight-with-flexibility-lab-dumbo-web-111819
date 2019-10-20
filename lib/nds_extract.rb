@@ -99,9 +99,10 @@ def gross_per_studio(collection)
         total_gross 
         i += 1
     end
+    binding.pry
   end
   a_collection
-  binding.pry
+  
     #final_collection example: {
     #   :studio => total_gross
     #   :studio => total_gross
