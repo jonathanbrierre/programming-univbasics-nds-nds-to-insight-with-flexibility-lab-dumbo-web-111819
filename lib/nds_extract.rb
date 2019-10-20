@@ -102,6 +102,7 @@ def gross_per_studio(collection)
     
     total_gross += collection[sub_array_index][:worldwide_gross] 
     
+    if collection
     
   
     # if collection[i][:studio] ==   a_collection[collection[i][:studio]]
@@ -112,7 +113,6 @@ def gross_per_studio(collection)
     #     total_gross 
     #     i += 1
     #   end
-      binding.pry
     # end
   #   else 
   #       total_gross += collection[i][:worldwide_gross]
