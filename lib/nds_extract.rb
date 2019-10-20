@@ -88,7 +88,7 @@ def gross_per_studio(collection)
   sub_array = []
   while i < collection.count do 
     
-    sub_array << collection[i][:studio] if sub_array.include?(collection[i][:studio]) == false
+    sub_array << collection[i][:studio] #if sub_array.include?(collection[i][:studio]) == false
     i +=1
   end
   sub_array
