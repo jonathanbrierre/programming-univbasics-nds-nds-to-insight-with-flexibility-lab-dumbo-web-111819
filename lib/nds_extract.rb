@@ -117,6 +117,7 @@ def movies_with_directors_set(source)
   while i < source.count do 
     new_array << source[i][:movies]
     z = 0 
+    flatten_a_o_a(new_array)
     while z < new_array.count do
       new_array[z][:director_name] = source[i][:name]
       z +=1
@@ -124,7 +125,7 @@ def movies_with_directors_set(source)
     i += 1 
   end
   new_array
-  binding.pry
+  
   
 end
 
