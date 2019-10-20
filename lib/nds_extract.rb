@@ -89,6 +89,7 @@ def gross_per_studio(collection)
     
     total_gross = 0
     if collection[i][:studio] ==   a_collection[collection[i][:studio]]
+      
       binding.pry
         total_gross += collection[i][:worldwide_gross]
         a_collection[collection[i][:studio]] += 
