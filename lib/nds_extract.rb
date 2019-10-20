@@ -115,7 +115,7 @@ def gross_per_studio(collection)
   #   end
     
   # end
-  a_collection
+  #a_collection
   
     #final_collection example: {
     #   :studio => total_gross
